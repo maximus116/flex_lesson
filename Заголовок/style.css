@@ -6,13 +6,22 @@ ul{
 list-style: none;
 }
 a{
-text-decoration: none;
+    color: black;
+    text-decoration: none;
 }
+
 .wrap{
+    max-width: 1200px;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    
+    justify-content: space-around;
+    margin: 80px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 8px;
+}
+.nav_cont{
+    display: flex;
+
 }
 .nav ul{
     display: flex;
@@ -22,6 +31,13 @@ text-decoration: none;
     padding: 0 15px;
 }
 .logo img{
-    max-width: 40px;
+    max-width: 60px;
+}
+.button{
+    display: inline-block; 
+    background: black; 
+    color: #fff; 
+    padding: 0.7rem 1.5rem; 
+    border-radius: 8px; 
 }
 
